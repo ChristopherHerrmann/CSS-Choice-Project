@@ -1,6 +1,17 @@
-h1 {
+
+.title {
   text-align: center;
   font-size: 75px;
-
   background: linear-gradient(to right, #116ad2 0%, #4c7fea 100%);
+}
+img {
+  width: 240px;
+  height: 240px;
+  padding-top: 10vh;
+  padding-left: 5vh;
+}
+body {
+  background-image: url("img2/bg.png");
+  background-repeat: repeat-y;
+  
 }
