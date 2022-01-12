@@ -1,12 +1,25 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 .title {
   text-align: center;
   font-size: 75px;
   background: linear-gradient(to right, #116ad2 0%, #4c7fea 100%);
+  font-family: Anton;
+}
+.img {
+  float: left;
+}
+.mini {
+  text-align: center;
+  font-size: 50px;
+  background: linear-gradient(to right, #116ad2 0%, #4c7fea 100%);
+  text-align: center;
+  font-family: Anton;
+  border-radius: 40px;
+  border-top-right-radius: 1px
 }
 img {
-  width: 240px;
-  height: 240px;
+  width: 600px;
+  height: 400px;
   padding-top: 5vh;
   padding-left: 5vh;
 }
@@ -38,6 +51,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: Anton;
 }
 
 li a:hover:not(.active) {
