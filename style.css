@@ -15,7 +15,8 @@
   text-align: center;
   font-family: Anton;
   border-radius: 40px;
-  
+  width: 1000px;
+  float: left, top;
 }
 img {
   width: 600px;
