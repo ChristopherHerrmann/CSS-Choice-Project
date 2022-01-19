@@ -4,9 +4,18 @@
   font-size: 75px;
   background: linear-gradient(to right, #116ad2 0%, #4c7fea 100%);
   font-family: Anton;
+  border-radius: 40px;
 }
 .img {
   float: left;
+
+}
+.img2 {
+  float: right;
+  display: inline-block;
+  width: 30%;
+  margin: auto;
+  padding-right: 50px;
 }
 .mini {
   text-align: center;
@@ -16,7 +25,20 @@
   font-family: Anton;
   border-radius: 40px;
   width: 1000px;
+  float: right, top, lefts;
+
+}
+.text {
+  font-style: normal;
+  text-align: center;
+  font-size: 10px;
+  background:#116ad2 ;
+  font-family: Anton;
+  border-radius: 40px;
+  padding: 10px;
   float: left, top;
+  width: 65%;
+  display: inline-block;
 }
 img {
   width: 600px;
