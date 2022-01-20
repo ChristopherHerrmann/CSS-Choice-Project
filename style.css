@@ -103,3 +103,32 @@ li a:hover:not(.active) {
   }
 
 }
+div.gallery {
+  margin: auto;
+  float: top;
+  width: 180px;
+  text-align: center;
+
+}
+
+div.gallery:hover {
+
+}
+
+div.gallery img {
+  width: 100px;
+  height: 130px;
+
+
+}
+
+div.desc {
+  margin: auto;
+  padding: 40px;
+  text-align: center;
+  font-family: anton;
+  text-align: center;
+  background: #116ad2;
+  border-radius: 40px;
+  width: 500px
+}
