@@ -5,17 +5,19 @@
   background: linear-gradient(to right, #116ad2 0%, #4c7fea 100%);
   font-family: Anton;
   border-radius: 40px;
-}
-.img {
-  float: left;
 
 }
-.img2 {
+.img {
   float: right;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+.img2 {
+  float: left;
   display: inline-block;
   width: 30%;
-  margin: auto;
-  padding-right: 50px;
+
+  padding-right: 55px;
 }
 .mini {
   text-align: center;
@@ -25,7 +27,8 @@
   font-family: Anton;
   border-radius: 40px;
   width: 1000px;
-  float: right, top, lefts;
+  float: left;
+
 
 }
 .text {
@@ -36,9 +39,12 @@
   font-family: Anton;
   border-radius: 40px;
   padding: 10px;
-  float: left, top;
+  float: left;
   width: 65%;
   display: inline-block;
+
+  width: 750px;
+  margin-top: 80px;
 }
 img {
   width: 600px;
@@ -83,4 +89,17 @@ li a:hover:not(.active) {
 
 .active {
   background-color: #116ad2;
+}
+.a {
+  animation-name: aa;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+
+}
+@keyframes aa {
+
+    0%{
+    transform: rotateX(-90deg);
+  }
+
 }
